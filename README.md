@@ -7,10 +7,8 @@ This repository contains the code and resources for the technical assessment use
 
 ## Repository Contents
 
-- **/src**: Contains the source code for the exercises and problems.
-- **/data**: Directory containing the datasets used for the assessments.
-- **/docs**: Detailed documentation for each exercise, including requirements, instructions, and solutions.
-- **/tests**: Automated tests to validate the implemented solutions.
+- **/src**: Contains utilities for the notebooks executions.
+- **/data**: Directory containing the datasets used for the assessment.
 - **/notebooks**: Jupyter Notebooks with exploratory analysis and interactive solutions.
 
 ## Requirements
