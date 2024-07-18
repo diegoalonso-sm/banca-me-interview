@@ -1,9 +1,9 @@
 ---
-# Interview Assessment
+# Interview Assessment Banca.me
 
 ## Description
 
-This repository contains the code and resources for the technical assessment used in job interviews. The purpose of this project is to demonstrate skills in data analysis, software development, and problem-solving through practical exercises and examples.
+This repository contains the code and resources for the technical assessment used for applying to an intership in [banca.me](https://www.banca.me/). The purpose of this project is to demonstrate skills in data analysis, software development, and problem-solving through a practical exercise.
 
 ## Repository Contents
 
@@ -15,9 +15,9 @@ This repository contains the code and resources for the technical assessment use
 
 ## Requirements
 
-- **Python 3.8+**
+- **Python 3.12+**
 - **Docker** (optional, for a reproducible development environment)
-- Python Libraries:
+- **Python Libraries:**
   - pandas
   - numpy
   - matplotlib
@@ -28,7 +28,7 @@ This repository contains the code and resources for the technical assessment use
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/interview-assessment.git
+   git clone https://github.com/diegoalonso-sm/interview-assessment.git
    cd interview-assessment
    ```
 
@@ -43,20 +43,6 @@ This repository contains the code and resources for the technical assessment use
 
    ```sh
    pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Navigate to the directory of the exercise or problem you want to solve.
-
-2. Read the instructions and requirements in the `README.md` file within that directory.
-
-3. Implement your solution in the corresponding file.
-
-4. Run the tests to validate your solution:
-
-   ```sh
-   pytest tests/test_<problem_name>.py
    ```
 
 ## Running with Docker
@@ -75,17 +61,7 @@ This repository contains the code and resources for the technical assessment use
 
    This will mount the current directory to `/app` in the container and run it interactively.
 
-3. Within the container, you can run your solutions and tests as described above.
-
-## Contributions
-
-Contributions are welcome. If you wish to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/new-feature`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push your changes to a new branch (`git push origin feature/new-feature`).
-5. Create a Pull Request.
+3. Within the container, you can run the notebooks.
 
 ## License
 
